@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    margin: 20px 0;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+#legend{
+    margin: 20px 0;
+}
+
+.tile:hover{
+    fill: lightgray;
+}
+
+#tooltip{
+    position: absolute;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: none;
+    opacity: .80;
+    font-size: 12px;
+}
